@@ -5,12 +5,13 @@
 
 body {
   font-family: 'Outfit', sans-serif;
+  padding:0px;
 }
 
 .main-heading {
   font-family: 'Young Serif', serif;
-  color:  hsla(0, 3%, 6%, 1.00);
-  font-size: 27px;
+  color:  hsla(240, 14%, 1%, 1.00);
+  font-size: 35px;
 }
 
 .main-area {
@@ -19,7 +20,7 @@ body {
 }
 
 .project-intro {
-  padding: 25px 0;
+  padding: 15px 0;
   font-size: 17px;
   line-height: 28px;
 }
@@ -33,7 +34,6 @@ margin-top: 0px;
 
 .font-size {
   font-size: 20px;
-   margin-bottom: 20px;
     color: hsl(332, 51%, 32%);
     flex-direction:center;
 }
@@ -97,7 +97,7 @@ margin-left: 20px;
   display: flex;
    flex-direction: column; 
    row-gap: 20px;
-   line-height: 1.0;
+   line-height: 2.0;
 }
 
 .instruction-list-style{
@@ -115,8 +115,9 @@ margin-left: 20px;
 }
 
 .Nutrition-section {
-  margin-top: 25px; 
+  margin-top: 20px; 
   padding-top: 20px; 
+  line-height: 2.0;
   border-top: 0.5px solid hsl(30, 18%, 87%);
 }
 
@@ -124,7 +125,7 @@ margin-left: 20px;
   font-family: 'Young Serif', serif;
   font-size: 20px;
   color: hsl(14, 45%, 36%);
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .nutrition-intro {
@@ -153,7 +154,7 @@ margin-left: 20px;
 @media (min-width: 900px) {
   body {
     background-color: hsl(30, 54%, 90%);
-    padding: 60px;
+    padding: 40px;
   }
   .main-area {
     width: 70%;
@@ -163,27 +164,37 @@ margin-left: 20px;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
   }
-
+ 
+  .main-area {
+  padding: 50px 40px;
+  background-color: white;
+}
+.main-heading {
+  padding-top:10px;
+   margin:0px;
+}
   .image-wrapper {
     width: 70%;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 20px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
     margin: 0 auto;
     background: white;
-    padding: 20px 0 0 0;
+    padding: 40px 40px;
     display: flex;
-    justify-content: center;
+    justify-content:center;
+     padding-bottom:0px;
   }
   img {
-    width: calc(100% - 80px) !important;
-    border-radius: 20px;
+    width: calc(110% - 70px) !important;
+    border-radius: 15px;
+   
   }
    .top-section,
   .preparation-time-section,
   .Nutrition-section,
   .instruction-section-alpha,
   .ingredients-section{
-    padding: 33px;
+    padding 15px;
   }
  
   /* img {
